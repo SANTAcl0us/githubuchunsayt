@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 110px;
+}
+
+header .navbar {
+  width: 100%;
+}
+
+header .navbar .top {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .navbar .top .nav-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .top .nav-1 .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .top .nav-1 .dostavka {
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .navbar .top .nav-1 .dostavka #time {
+  margin-left: 20px;
+}
+
+header .navbar .top .nav-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .top .nav-2 .login {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .bottom {
+  width: 100%;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid #04173c;
+}
+
+header .navbar .bottom .content {
+  width: 1210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .bottom .content .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .bottom .content .left img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+header .navbar .bottom .content .right {
+  background: orange;
+  width: 80px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+header .navbar .bottom .content .right img {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+header .navbar .bottom .content .right .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .navbar .bottom .content .right .price p {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+header .cards {
+  width: 100%;
+  height: 105px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .cards .cards-1 {
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .cards .cards-1 .card-1-red {
+  width: 134px;
+  border: 2px solid rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .cards .cards-1 .card-1-red p {
+  color: red;
+  margin-top: 10px;
+}
+
+header .cards .cards-1 .card-1 {
+  width: 134px;
+  border: 2px solid rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .cards .cards-1 .card-1 p {
+  margin-top: 10px;
+}
+
+header .cards .cards-1 .card-1 img {
+  width: 50px;
+  height: 50px;
+}
+
+header .cards-2 .card-pizza {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  margin-top: 40px;
+}
+
+header .cards-2 .card-pizza .card-pizza-1 p {
+  position: relative;
+  margin-top: -70px;
+  margin-left: 15px;
+  width: 200px;
+  color: white;
+  font-size: 25px;
+}
+
+header .search-addres {
+  width: 1245px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 40px;
+  margin-left: 135px;
+  border: 1px solid rgba(198, 196, 196, 0.89);
+  border-radius: 5px;
+}
+
+header .search-addres .search-addres-text {
+  font-size: 25px;
+  margin-top: 18px;
+  margin-left: 20px;
+}
+
+header .search-addres .search-addres-input {
+  margin-top: 15px;
+}
+
+header .search-addres .search-addres-input input {
+  width: 650px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 20px;
+  border-radius: 8px;
+  border: 1px solid #e6e6e6;
+}
+
+header .search-addres .search-addres-btn button {
+  width: 150px;
+  height: 48px;
+  margin-right: 115px;
+  margin-top: 16px;
+  background: orange;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.827);
+}
+
+header .cards-3 {
+  max-width: 1245px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+header .cards-3 .card-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .cards-3 .card-nav button {
+  width: 100px;
+  height: 30px;
+  background: white;
+  border-radius: 5px;
+}
+
+header .cards-3 .cards-3-pizza {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+header .cards-3 .cards-3-pizza .cards-3-pizza-1 {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+header .cards-3 .cards-3-pizza .cards-img p {
+  position: absolute;
+  margin-top: -250px;
+  background-color: red;
+  width: 50px;
+  height: 20px;
+  color: white;
+}
+
+header .cards-3 .cards-3-pizza .cards-pizza-text {
+  margin-left: 10px;
+}
+
+header .cards-3 .cards-3-pizza .cards-pizza-text p {
+  font-family: SF Pro Text;
+  width: 250px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header .cards-3 .cards-3-pizza .cards-pizza-price {
+  margin-left: 10px;
+}
+
+header .cards-3 .cards-3-pizza .cards-pizza-price button {
+  background: orange;
+  padding: 13px 32px;
+  border-radius: 5px;
+  border: none;
+}
+
+header .cards-3 .cards-3-pizza .cards-pizza-price button:hover {
+  color: white;
+  background: #ffd000;
+}
+
+header .cards-3 .cards-3-pizza .cards-pizza-price span {
+  color: orange;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+footer .cards-footer {
+  color: black;
+  width: 700px;
+  margin-left: 430px;
+  margin-top: 100px;
+}
+
+footer .cards-footer .footer-dastavka {
+  width: 700px;
+}
+
+footer .cards-footer .footer-dastavka h2 {
+  font-family: Inter;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+footer .cards-footer .footer-dastavka p {
+  margin-bottom: 20px;
+}
+
+footer .cards-footer .footer-dastavka-2 {
+  color: #a4a3a3;
+}
+
+footer .cards-footer .footer-dastavka-a {
+  margin-top: 15px;
+}
+
+footer .cards-footer .footer-dastavka-a a {
+  color: orange;
+  font-size: 20px;
+}
+
+footer .footer-lacation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #b8b7b7;
+  margin-top: 50px;
+}
+
+footer .footer-lacation .footer-lacation-1 .footer-lacation-1--1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+footer .footer-lacation .footer-lacation-1 .footer-lacation-1--1 img {
+  margin-right: 10px;
+}
+
+footer .footer-lacation .footer-lacation-1 .footer-lacation-1--2 {
+  margin-top: 125px;
+}
+
+footer .footer-lacation .footer-lacation-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+footer .footer-lacation .footer-lacation-2 p {
+  margin-top: 20px;
+}
+
+footer .footer-lacation .footer-lacation-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+footer .footer-lacation .footer-lacation-3 p {
+  margin-top: 20px;
+}
+
+footer .footer-lacation .footer-lacation-4 {
+  margin-top: 20px;
+}
+
+footer .footer-lacation .footer-lacation-4 .footer-lacation-4--1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+footer .footer-lacation .footer-lacation-4 .footer-lacation-4--1 img {
+  margin-right: 5px;
+}
+
+footer .footer-lacation .footer-lacation-4 .footer-lacation-4--2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+footer .footer-lacation .footer-lacation-4 .footer-lacation-4--2 img {
+  margin-right: 5px;
+}
+
+footer .footer-lacation .footer-lacation-4 .footer-lacation-4--3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+footer .footer-lacation .footer-lacation-4 .footer-lacation-4--3 img {
+  margin-right: 5px;
+}
+
+footer .footer-lacation .footer-lacation-4 .footer-lacation-4--3 .fecebook {
+  margin-right: 15px;
+}
+/*# sourceMappingURL=style.css.map */

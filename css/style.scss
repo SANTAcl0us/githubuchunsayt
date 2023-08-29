@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 110px;
+
+    .navbar {
+        width: 100%;
+
+        .top {
+            width: 100%;
+            height: 40px;
+            display: flex;
+            justify-content: space-around;
+
+            .nav-1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .location {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .dostavka {
+                    margin-left: 40px;
+                    display: flex;
+
+                    #time {
+                        margin-left: 20px;
+                    }
+                }
+            }
+
+            .nav-2 {
+                display: flex;
+                align-items: center;
+
+                .login {
+                    margin-left: 30px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+
+        .bottom {
+            width: 100%;
+            height: 65px;
+            display: flex;
+            justify-content: center;
+            border: 2px solid rgb(4, 23, 60);
+
+            .content {
+                width: 1210px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .left {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 32px;
+                        height: 32px;
+                        margin-right: 10px;
+                    }
+                }
+
+                .right {
+                    background: orange;
+                    width: 80px;
+                    height: 40px;
+                    border-radius: 4px;
+
+                    img {
+                        margin-top: 5px;
+                        margin-left: 5px;
+                    }
+
+                    .price {
+                        display: flex;
+
+                        p {
+                            margin-top: 10px;
+                            margin-left: 10px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .cards {
+        width: 100%;
+        height: 105px;
+        justify-content: center;
+        display: flex;
+
+        .cards-1 {
+            column-gap: 20px;
+            display: flex;
+            justify-content: center;
+
+            .card-1-red {
+                width: 134px;
+                border: 2px solid rgba(0, 0, 0, 0.16);
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    color: red;
+                    margin-top: 10px;
+                }
+            }
+
+            .card-1 {
+                width: 134px;
+                border: 2px solid rgba(0, 0, 0, 0.16);
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    margin-top: 10px;
+                }
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+
+    .cards-2 {
+        .card-pizza {
+            display: flex;
+            justify-content: center;
+            column-gap: 15px;
+            margin-top: 40px;
+
+            .card-pizza-1 {
+                p {
+                    position: relative;
+                    margin-top: -70px;
+                    margin-left: 15px;
+                    width: 200px;
+                    color: white;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    .search-addres {
+        width: 1245px;
+        height: 80px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        margin-left: 135px;
+        border: 1px solid rgba(198, 196, 196, 0.89);
+        border-radius: 5px;
+
+        .search-addres-text {
+            font-size: 25px;
+            margin-top: 18px;
+            margin-left: 20px;
+        }
+
+        .search-addres-input {
+            margin-top: 15px;
+
+            input {
+                width: 650px;
+                height: 50px;
+                font-size: 20px;
+                margin-left: 20px;
+                border-radius: 8px;
+                border: 1px solid rgb(230, 230, 230)
+            }
+        }
+
+        .search-addres-btn {
+            button {
+                width: 150px;
+                height: 48px;
+                margin-right: 115px;
+                margin-top: 16px;
+                background: orange;
+                border-radius: 5px;
+                border: 1px solid rgba(255, 255, 255, 0.827);
+            }
+        }
+    }
+
+    .cards-3 {
+        max-width: 1245px;
+        margin: 0 auto;
+        margin-top: 60px;
+
+        .card-nav {
+            display: flex;
+            justify-content: space-between;
+
+            button {
+                width: 100px;
+                height: 30px;
+                background: white;
+                border-radius: 5px;
+            }
+        }
+
+        .cards-3-pizza {
+            display: flex;
+            justify-content: center;
+            max-width: 1240px;
+            margin: 0 auto;
+
+            .cards-3-pizza-1 {
+                box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);   
+                display: grid;
+                gap: 10px;
+                margin-top: 40px;
+                margin-left: 10px;
+            }
+
+            .cards-img {
+                p {
+                    position: absolute;
+                    margin-top: -250px;
+                    background-color: red;
+                    width: 50px;
+                    height: 20px;
+                    color: white;
+                }
+            }
+
+            .cards-pizza-text {
+                margin-left: 10px;
+
+                p {
+                    font-family: SF Pro Text;
+                    width: 250px;
+                    font-size: 16px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .cards-pizza-price {
+                margin-left: 10px;
+
+                button {
+                    background: orange;
+                    padding: 13px 32px;
+                    border-radius: 5px;
+                    border: none;
+                }
+
+                button:hover {
+                    color: white;
+                    background: rgb(255, 208, 0);
+                }
+
+                span {
+                    color: orange;
+                    font-size: 18px;
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    .cards-footer {
+        color: black;
+        width: 700px;
+        margin-left: 430px;
+        margin-top: 100px;
+
+        .footer-dastavka {
+            width: 700px;
+
+            h2 {
+                font-family: Inter;
+                font-size: 32px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                margin-bottom: 20px;
+            }
+        }
+
+        .footer-dastavka-2 {
+            color: rgb(164, 163, 163);
+
+            p {}
+        }
+
+        .footer-dastavka-a {
+            margin-top: 15px;
+
+            a {
+                color: orange;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .footer-lacation {
+        display: flex;
+        justify-content: space-around;
+        background: #b8b7b7;
+        margin-top: 50px;
+
+        .footer-lacation-1 {
+            .footer-lacation-1--1 {
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                img{
+                    margin-right: 10px;
+                }
+            }
+            .footer-lacation-1--2{
+                margin-top: 125px;
+            }
+        }
+        .footer-lacation-2{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            p{
+                margin-top: 20px;
+                
+            }
+        }
+        .footer-lacation-3{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            p{
+                margin-top: 20px;
+                
+            }
+        }
+        .footer-lacation-4{
+            margin-top: 20px;
+            .footer-lacation-4--1{
+                display: flex;
+                margin-top: 20px;
+                img{
+                    margin-right: 5px;
+                }
+            }
+            .footer-lacation-4--2{
+                display: flex;
+                margin-top: 20px;
+                img{
+                    margin-right: 5px;
+                }
+            }
+            .footer-lacation-4--3{
+                display: flex;
+                margin-top: 20px;
+                img{
+                    margin-right: 5px;
+                }
+                .fecebook{
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
